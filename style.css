@@ -63,10 +63,82 @@ nav ul {
 }
 
 
-nav a {
+nav ul a {
     text-decoration: none;
     color: #000000;
     font-weight: 500;
     font-size: 16px;
-    magi
 }
+
+
+#banner {
+    max-width: 1600px;
+    background: url('./assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.banner-content {
+    width: 96%;
+    max-width: 1600px;
+    height: 674px;
+    padding: 115px 120px 179px 120px;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+
+.banner-content .badge {
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: #30b868;
+    padding: 8px 12px 8px 34px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+
+.banner-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+
+.banner-content h1 .highlight {
+    color: #30b868;
+}
+
+
+.banner-content p {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-bottom: 32px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.banner-buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.btn-outline {
+    background-color: transparent;
+    color:#FFFFFF;
+    border: 2px solid white;
+    padding: 12px 22px;
+}
+
+
