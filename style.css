@@ -171,8 +171,10 @@ nav ul a {
 /* notes */
 
 #features {
-    padding: 130px 0;
+    padding-top: 130px;
+    padding-bottom: 0;
     background-color: #FFFFFF;
+
 }
 
 
@@ -256,4 +258,89 @@ nav ul a {
     line-height: 20px;
     text-align: center;
     margin: 0;
+}
+
+
+/* ===== SECOND BRAIN SECTION ===== */
+#second-brain {
+    padding: 0 0 130px 0;
+    background-color: #FFFFFF;
+    position: relative;
+    margin-top: -80px;
+    z-index: 2;
+}
+
+.second-brain-container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding: 120px;
+}
+
+
+.second-brain-image {
+    flex: 1;
+}
+
+
+.second-brain-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.second-brain-content {
+    flex: 1;
+}
+
+.section-label {
+    /* display: block; */
+    color: #30b868;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    /* letter-spacing: 1px; */
+    /* text-transform: uppercase; */
+}
+
+.second-brain-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.second-brain-content p {
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 40px;
+    line-height: 20px;
+}
+
+.features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.check-icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.feature-item h4 {
+    font-size: 16px;
+    color: #001931;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.5;
 }
