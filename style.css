@@ -21,7 +21,9 @@ body {
 }
 
 
-.btn {
+.btn,
+.btn-2,
+.btn-3 {
     color: #FFFFFF;
     background-color: #30b868;
     font-size: 16px;
@@ -37,6 +39,7 @@ body {
 /* main style */
 
 
+/* navbar */
 header {
     padding-top: 18px;
 }
@@ -71,6 +74,7 @@ nav ul a {
 }
 
 
+/* banner */
 #banner {
     max-width: 1600px;
     background: url('./assets/hero-bg.png');
@@ -90,12 +94,14 @@ nav ul a {
 }
 
 
-.banner-content .badge {
-    display: inline-block;
+.banner-content .btn-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     background-color: #FFFFFF;
     color: #30b868;
-    padding: 8px 12px 8px 34px;
-    border-radius: 20px;
+    padding: 8px 12px 8px;
+    border-radius: 1000px;
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 16px;
@@ -126,19 +132,36 @@ nav ul a {
 }
 
 
+.btn-2,
 .banner-buttons {
-    display: flex;
+    display: inline-flex;
     gap: 16px;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 
-.btn-outline {
+.btn-3 {
     background-color: transparent;
-    color:#FFFFFF;
+    color: #FFFFFF;
     border: 2px solid white;
     padding: 12px 22px;
 }
 
 
+.btn,
+.btn-2,
+.btn-3 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+.btn img,
+.btn-2 img,
+.btn-3 img {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
