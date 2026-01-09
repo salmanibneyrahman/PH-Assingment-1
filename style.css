@@ -76,8 +76,9 @@ nav ul a {
 
 /* banner */
 #banner {
-    max-width: 1600px;
     background: url('./assets/hero-bg.png');
+    background-repeat: no-repeat;
+    margin: 0 auto;
     background-size: cover;
     background-position: center;
 }
@@ -164,4 +165,95 @@ nav ul a {
     width: 20px;
     height: 20px;
     display: block;
+}
+
+
+/* notes */
+
+#features {
+    padding: 130px 0;
+    background-color: #FFFFFF;
+}
+
+
+.section-heading {
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto 50px;
+}
+
+
+.section-heading h2 {
+    font-size: 48px;
+    margin-bottom: 16px;
+    color: #001931;
+    font-weight: 700;
+}
+
+
+.section-heading p {
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 20px;
+    color: #627382;
+}
+
+
+.notes-container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.note-card {
+    width: 322px;
+    height: 300px;
+    padding: 24px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+
+.icon-images {
+    height: 60px;
+    width: 60px;
+    background-color: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icon-images img {
+    height: 32px;
+    width: 32px;
+    object-fit: contain;
+}
+
+
+.note-card h3 {
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+
+
+.note-card p {
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0;
 }
